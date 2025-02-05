@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.hero-banner {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: Roboto;
+    height: 580px;
+}
+
+.nav {
+    display: flex;
+}
+
+.info {
+    height: 540px;
+}
+
+.random-info {
+    display: flex;
+}
+
+.quote-banner {
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    height: 450px;
+}
+
+.act-banner {
+    height: 350px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    color: #fff;
+}
