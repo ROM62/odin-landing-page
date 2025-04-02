@@ -79,7 +79,79 @@
 }
 
 
+/*Random Information Banner*/
+.info {
+    height: 500px;
+    width: 850px;
+    margin: auto;
+}
+
+.random-info {
+    height: 480px;
+}
+
+.random-info h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    text-align: center;
+}
+
+.blue-box {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    height: 165px;
+    width: 165px;
+}
+
+.box p {
+    padding-top: 8px;
+    color: #4b5563;
+}
+
+
 /*Quote Banner*/
 .quote-banner {
     background-color: #e5e7eb;
+    height: 430px;
+}
+
+.quote-banner div {
+    display: flex;
+    flex-direction: column;
+    width: 830px;
+    margin: auto;
+    height: 430px;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.right-link {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 8px;
 }
